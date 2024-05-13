@@ -1,4 +1,4 @@
-package devicefingerprint
+package deviceFingerprinter
 
 import (
 	"testing"
@@ -11,5 +11,4 @@ func TestFingerprint(t *testing.T) {
 		t.Error("Expected fingerprint, got nothing")
 	}
 
-	t.Error("Device Fingerprint:", fingerprint)
 }

@@ -1,4 +1,4 @@
-package devicefingerprint
+package deviceFingerprinter
 
 import (
 	"crypto/sha256"
